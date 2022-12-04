@@ -1,0 +1,140 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+.nb {
+    /* background-color: rgba(0, 0, 0, .1) ; */
+    margin-top: 5px;
+    /* position: fixed; */
+}
+
+/* #about {
+    position: relative;
+    top: 3.8rem;
+} */
+
+#about {
+    margin-top: 20px;
+    height: 80vh;
+}
+
+/* .pub {
+    background-color: rgba(0, 0, 0, .1) ;
+} */
+
+.main-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+}
+
+.inf {
+    width: 24px;
+    height: 24px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #about {
+        margin-bottom: 30%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #about {
+        margin-bottom: 17%;
+    }
+}
+
+@media only screen and (max-width: 731px) {
+    #about {
+        margin-bottom: 35%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #about {
+        margin-bottom: 45%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #about {
+        margin-bottom: 55%;
+    }
+}
+@media only screen and (max-width: 465px) {
+    #about {
+        margin-bottom: 65%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #about {
+        margin-bottom: 75%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #about {
+        margin-bottom: 150%;
+    }
+}
+@media only screen and (max-width: 390px) {
+    #about {
+        margin-bottom: 110%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #about {
+        margin-bottom: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #about {
+        margin-bottom: 150%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #about {
+        margin-bottom: 68%;
+    }
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
